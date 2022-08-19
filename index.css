@@ -1,0 +1,76 @@
+body {
+    background-image: linear-gradient(rgb(212, 239, 243), rgb(242, 247, 250)); 
+}
+
+
+.card {
+    display: flex;
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 300px auto;
+    background-color: rgb(4, 4, 4);
+}
+
+.left-side {
+    color: black;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+
+.left-side h2 {
+    margin-left: 70px;
+    margin-top: 65px;
+    font-size: 30px;
+    color: whitesmoke;
+    font-size: 40px;
+
+}
+
+.left-side h2 strong {
+    color: purple
+}
+
+.left-side p {
+    color: grey;
+    padding: 35px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.info {
+    color: white;
+}
+
+.info p {
+    margin-left: 55px;
+    padding: 0;
+    margin-top: 0;
+}
+
+.info h2 {
+    margin-bottom: 0;
+}
+
+.info .queries p {
+    margin-left: 77px;
+}
+
+
+.image {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    overflow: auto;
+    border-radius: 25px;
+    /* background-color: blueviolet; */
+    opacity: inherit;
+    filter: sephia(100%) saturate(300%) brightness(70%)
+
+    
+}
